@@ -53,7 +53,7 @@
                                 </li>
                             @endif
                         @else
-                            @if ($emp == 1)
+                            @if ($emp == 8)
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('sucursals.index') }}">Sucursales</a>
                                 </li>
